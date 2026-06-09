@@ -17,5 +17,13 @@ data class Character(
     val name: String,
     val status: String,
     val species: String,
-    val image: String
+    val image: String,
+    val origin: LocationData,
+    val location: LocationData,
+    val episode: List<String>
+)
+
+data class LocationData(
+    val name: String,
+    val url: String
 )

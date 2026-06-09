@@ -1,0 +1,26 @@
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" xmlns:android="">
+
+    <!-- Título Principal -->
+    <TextView android:text="Rick & Morty" />
+
+    <!-- Cuenta de personajes -->
+    <TextView
+        android:id="@+id/tvTotalCount"
+     />
+
+    <!-- Buscador -->
+    <EditText
+        android:id="@+id/etSearch"
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+    />
+
+    <!-- Lista -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCharacters"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
