@@ -27,6 +27,13 @@ class MainActivity : ComponentActivity() {
             }
         }
 
+        CoroutineScope(Dispatchers.IO).launch {
+            val characterSearch = repository.searchCharacters("Pencilvester")
+            characterSearch.forEach { character ->
+                println(character.name)
+            }
+        }
+
         setContent {
             // tu UI por ahora vacía
         }
