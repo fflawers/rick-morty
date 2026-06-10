@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#202329"> <!-- Fondo oscuro -->
+    android:background="@drawable/fondo_degradado"
+    > <!-- Fondo oscuro -->
 
     <!-- Foto Grande del personaje -->
     <ImageView
@@ -13,7 +14,7 @@
         android:layout_height="350dp"
         android:scaleType="centerCrop"
         android:src="@mipmap/ic_launcher"
-        android:layout_marginTop="175dp"
+        android:layout_marginTop="85dp"
         app:layout_constraintTop_toTopOf="parent"/>
 
     <!-- Botón de regreso -->
@@ -21,7 +22,7 @@
         android:id="@+id/btnBack"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:layout_marginTop="112dp"
+        android:layout_marginTop="30dp"
         android:background="#000000"
         android:contentDescription="Boton de regresar"
         android:src="@drawable/ic_flecha_regreso"

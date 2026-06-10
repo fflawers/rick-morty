@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:background="#202329"> <!-- Fondo oscuro estilo Rick & Morty -->
+    android:background="@drawable/fondo_degradado"    >
 
     <!-- Título -->
     <TextView
@@ -16,7 +16,7 @@
         android:textColor="#FFFFFF"
         android:gravity="center"
         android:layout_marginBottom="16dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="50dp"
         />
 
 
@@ -29,7 +29,7 @@
         android:textColorHint="#888888"
         android:textColor="#FFFFFF"
         android:background="#3C3E44"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="10dp"
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
         android:inputType="text"
