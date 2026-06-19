@@ -6,6 +6,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 object RetrofitClient {
     private const val BASE_URL = "https://rickandmortyapi.com/api/"
 
+
+    //Commit pa hacer push
     val instance: ApiService by lazy {
         Retrofit.Builder()
             .baseUrl(BASE_URL)
